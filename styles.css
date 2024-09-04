@@ -42,6 +42,10 @@ input{
 ::placeholder {
     color: #fff;
 }
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #fff;
+}
+
 input:focus,input:hover{
     background: #FFB703;
     transform: scale(1.1);
